@@ -1,0 +1,51 @@
+.Home {
+    margin: 0px 10%;
+    height: 100%;
+    padding-top: 1px;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.Link:hover {
+    color: black;
+    background-color: white;
+}
+
+.hero {
+    height: 30%;
+}
+
+.personalInfo {
+    height: 40%;
+}
+
+.aboutJae {
+    display: block;
+    width: 40%;
+    color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.workDone {
+    width: 40%;
+}
+
+.projects {
+    border: 1px solid red;
+}
+
+.cv {
+    border: 1px solid red;
+}
+
+.contact {
+    height: 30%
+}
+
+.contactMe {
+    border: 1px solid red;
+}
