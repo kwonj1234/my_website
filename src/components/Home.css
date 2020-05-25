@@ -1,11 +1,14 @@
 .Home {
-    margin: 0px 10%;
+    margin: 0px 20%;
     height: 100%;
-    padding-top: 1px;
 }
 
 .Link {
+    display: flex;
     text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .Link:hover {
@@ -22,24 +25,25 @@
 }
 
 .aboutJae {
-    display: block;
     width: 40%;
     color: white;
-    border: 1px solid red;
-    border-radius: 10px;
-    justify-content: center;
+    flex-grow: 1;
 }
 
 .workDone {
     width: 40%;
+    flex-grow: 1;
+    flex-direction: column;
 }
 
 .projects {
-    border: 1px solid red;
+    height: 50%;
+    color: white;
 }
 
 .cv {
-    border: 1px solid red;
+    height: 50%;
+    color: white;
 }
 
 .contact {
@@ -47,5 +51,7 @@
 }
 
 .contactMe {
-    border: 1px solid red;
+    width: 90%;
+    color: white;
+    margin-bottom: 10%;
 }

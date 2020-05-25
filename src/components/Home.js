@@ -13,7 +13,6 @@ export default function Home() {
                 <Link to="/about" className="aboutJae Link"><h3>About Jae</h3></Link>
                 <div className="column workDone">
                     <Link to="/projects" className="projects Link"><h3>Projects</h3></Link>
-                    <br></br>
                     <Link to="cv" className="cv Link"><h3>Employment History</h3></Link>
                 </div>
             </div>
