@@ -1,6 +1,5 @@
 .Home {
-    margin: 0px 20%;
-    height: 100%;
+    height: 200%;
 }
 
 .Link {
@@ -9,24 +8,53 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    transition: filter 1s;
 }
 
 .Link:hover {
     color: black;
-    background-color: white;
+    background-color: red;
+    filter: brightness(80%);
 }
 
 .hero {
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
     height: 30%;
+    width: 100%;
+    background-color: wheat
+}
+
+.bannerText {
+    margin: auto;
+}
+
+.bottomHero {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.linksDisplay {
+    width: 100%;
+    margin: 0 10%;
+    height: 80%;
 }
 
 .personalInfo {
-    height: 40%;
+    height: 80%;
 }
 
 .aboutJae {
     width: 40%;
-    color: white;
+    color: grey;
     flex-grow: 1;
 }
 
@@ -38,20 +66,19 @@
 
 .projects {
     height: 50%;
-    color: white;
+    color: grey;
 }
 
 .cv {
     height: 50%;
-    color: white;
+    color: grey;
 }
 
 .contact {
-    height: 30%
+    height: 20%
 }
 
 .contactMe {
-    width: 90%;
-    color: white;
-    margin-bottom: 10%;
+    width: 100%;
+    color: grey;
 }
