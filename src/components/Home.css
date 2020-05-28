@@ -1,5 +1,6 @@
 .Home {
     height: 200%;
+    background-color: wheat;
 }
 
 .Link {
@@ -8,13 +9,13 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    transition: filter 1s;
+    transition: all 0.2s ease-in-out;
 }
 
 .Link:hover {
-    color: black;
-    background-color: red;
+    background-color: white;
     filter: brightness(80%);
+    transform: scale(1.1);
 }
 
 .hero {
@@ -26,13 +27,21 @@
 .banner {
     display: flex;
     align-items: center;
-    height: 30%;
+    height: 50%;
     width: 100%;
-    background-color: wheat
+    background: url("https://davidbalyeat.com/wp-content/uploads/central-park-panoramic-new-york-city-autumn-fall-foliage-literary-walk-tree-lined-mall-high-definition-hd-professional-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .bannerText {
     margin: auto;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.banner h1 {
+    font-size: 500%;
 }
 
 .bottomHero {
@@ -40,6 +49,7 @@
     align-items: center;
     height: 50%;
     width: 100%;
+    font-size: 200%;
 }
 
 .linksDisplay {
@@ -66,12 +76,19 @@
 
 .projects {
     height: 50%;
-    color: grey;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background: url(../images/recipedex_screenshot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cv {
     height: 50%;
-    color: grey;
+    color: black;
+    background: url(../images/resume.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .contact {
@@ -80,5 +97,9 @@
 
 .contactMe {
     width: 100%;
-    color: grey;
+    color: black;
+    background: url("https://caribbeantradelaw.files.wordpress.com/2012/01/contact-us-1908762_960_720.png?w=816");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
 }
