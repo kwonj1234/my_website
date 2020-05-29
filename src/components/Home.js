@@ -8,23 +8,25 @@ export default function Home() {
             <div className="hero">
                 <div className="banner">
                     <div className="bannerText">
+                        <p>Hey, I'm</p>
                         <h1>Jaehwi Kwon</h1>
                         <br></br>
-                        <p className="text">Elevator pitch</p>
+                        <br></br>
+                        <p className="text">NYC raised software developer</p>
                     </div>
                 </div>
             </div>
             <div className="bottomHero">
                 <div className="linksDisplay">
                     <div className="row personalInfo">
-                        <Link to="/about" className="aboutJae Link"><h3>About Jae</h3></Link>
+                        <a href="#About" className="aboutJae link"><h3>About Jae</h3></a>
                         <div className="column workDone">
-                            <Link to="/projects" className="projects Link"><h3>Projects</h3></Link>
-                            <Link to="/cv" className="cv Link"><h3>Resume</h3></Link>
+                            <a href="#Projects" className="projects link"><h3>Projects</h3></a>
+                            <a href="#Experience" className="cv link"><h3>Experiences</h3></a>
                         </div>
                     </div>
                     <div className="row contact">
-                        <Link to="/contact_me" className="contactMe Link"><h3>Contact Me</h3></Link>
+                        <a href="#ContactMe" className="contactMe link"><h3>Contact Me</h3></a>
                     </div>
                 </div>
             </div>
