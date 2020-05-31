@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import "./Home.css"
 
 export default function Home() {
@@ -16,6 +15,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            {/* links should jump to corresponding sections */}
             <div className="bottomHero">
                 <div className="linksDisplay">
                     <div className="row personalInfo">

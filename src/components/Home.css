@@ -3,6 +3,7 @@
     background-color: rgb(212, 212, 212);
 }
 
+/* set behavior for link in bottomHero */
 .link {
     display: flex;
     text-decoration: none;
@@ -17,6 +18,7 @@
     transform: scale(1.1);
 }
 
+/* Hero, banner and bannerText are the first things you see */
 .hero {
     height: 50%;
     z-index: -1;
@@ -39,6 +41,7 @@
     margin: auto;
 }
 
+/* Bottom half of home where the links are located */
 .bottomHero {
     display: flex;
     align-items: center;
