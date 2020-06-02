@@ -4,7 +4,7 @@ export default function Projects() {
     return (
         <div className="Projects">
             <h1>Projects</h1>
-            <div className="myWebsite">
+            <div className="row myWebsite">
                 <div className="leftColumn">
                     Insert my_website image
                 </div>
