@@ -3,21 +3,6 @@
     background-color: rgb(212, 212, 212);
 }
 
-/* set behavior for link in bottomHero */
-.link {
-    display: flex;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease-in-out;
-}
-
-.link:hover {
-    filter: brightness(80%);
-    transform: scale(1.1);
-}
-
 /* Hero, banner and bannerText are the first things you see */
 .hero {
     height: 50%;
@@ -48,6 +33,21 @@
     height: 50%;
     width: 100%;
     font-size: 200%;
+}
+
+/* set behavior for links in bottomHero */
+.link {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+    filter: brightness(80%);
+    transform: scale(1.1);
 }
 
 .linksDisplay {
