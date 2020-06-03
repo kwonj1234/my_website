@@ -1,31 +1,40 @@
 import React from 'react'
+import "./About.css"
 
 export default function About() {
     return (
         <div className="About">
+            <br></br>
             <h1>About Jae</h1>
-            <div className="row">
-                <div className="column selfDescrip">
-                    Environmental Engineer, healthcare provider, air quality inspector
-                    turned software developer. I love optimization, there is always a 
-                    better way to do a task and I intend to find those ways. I tend to
-                    fixate on details until they reflect what I envision but, as a 
-                    developing programmer, I am always open to suggestions and for that
-                    reason prefer working in teams. Sometimes a rubber duck just isn't
-                    enough.
+            <div className="row aboutContent">
+                <div className="selfDescrip">
+                    <p>
+                        Environmental Engineer, healthcare provider, air quality inspector
+                        turned software developer. I love optimization, there is always a 
+                        better way to do a task and I intend to find those ways. I tend to
+                        fixate on details until they reflect what I envision but, as a 
+                        developing programmer, I am always open to suggestions. For that
+                        reason, I prefer working in teams. Sometimes, a rubber duck just isn't
+                        enough.
+                    </p>
                 </div>
-                <div className="column selfie"></div>
-                <div className="column skills">
-                    <ul>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Flask</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SQL (Sqlite)</li>
-                        <li>Bash</li>
-                    </ul>
+                <div className="selfie"/>
+                <div className="skills">
+                    <h2>Tech Skills</h2>
+                    <div className="row">
+                        <ul className="no-style">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Flask</li>
+                        </ul>
+                        <ul className="no-style">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SQL (Sqlite)</li>
+                            <li>Bash</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

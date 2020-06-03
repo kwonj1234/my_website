@@ -73,7 +73,7 @@
 }
 
 .projects {
-    height: 50%;
+    height: 33.333333%;
     color: white;
     -webkit-text-stroke: 1px black;
     background: url(../images/recipedex_screenshot.jpg);
@@ -82,7 +82,16 @@
 }
 
 .cv {
-    height: 50%;
+    height: 33.333333%;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background: url(../images/resume.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.passions {
+    height: 33.333333%;
     color: white;
     -webkit-text-stroke: 1px black;
     background: url(../images/resume.jpg);

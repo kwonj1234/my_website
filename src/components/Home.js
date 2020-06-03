@@ -23,6 +23,7 @@ export default function Home() {
                         <div className="column workDone">
                             <a href="#Projects" className="projects link"><h3>Projects</h3></a>
                             <a href="#Experience" className="cv link"><h3>Experiences</h3></a>
+                            <a href="#Passions" className="passions link"><h3>Passions</h3></a>
                         </div>
                     </div>
                     <div className="row contact">

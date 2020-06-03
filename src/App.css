@@ -18,8 +18,11 @@ body > #root > div {
   text-align: center;
 }
 
+.no-style {
+  list-style: none;
+}
+
 .row {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
 }

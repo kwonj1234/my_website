@@ -1,0 +1,36 @@
+.About {
+    height: 60%;
+    background-color: #9BCBAD;
+}
+
+.aboutContent {
+    margin: 3% 20%;
+}
+
+.selfie {
+    height: 300px;
+    width: 300px;
+    float: left;
+    border-radius: 50%;
+    background-color: grey;
+    margin-right: 7%;
+}
+
+.selfDescrip {
+    text-align: left;
+    width: 30%;
+    margin-top: 3%;
+    margin-right: 4%;
+}
+
+.skills {
+    margin: auto;
+}
+
+.skills h2 {
+    margin-bottom: 5%;
+}
+
+.skills li {
+    margin: 12px 16px;
+}

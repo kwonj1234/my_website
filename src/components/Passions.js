@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Passions.css"
 
 export default function Passions() {
     return (
