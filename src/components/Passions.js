@@ -17,7 +17,7 @@ export default function Passions() {
                     <h4>Check out some of these stories that have stuck with me.</h4>
                     <p>*Warning: content may include disturbing images, profanity, or references to drugs</p>
                 </div>
-                <div className="row linksDisplay">
+                <div className="row display">
                     <div className="column">
                         <a 
                             href="https://www.goodreads.com/book/show/18774964-a-man-called-ove" 
@@ -111,7 +111,7 @@ export default function Passions() {
                     <div className="column">
                         <a
                             href="https://www.eater.com/2017/2/18/14653382/jeong-kwan-buddhist-nun-chefs-table"
-                            className="link passionLink jeongKwan"
+                            className="link passionsLink jeongKwan"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -159,9 +159,7 @@ export default function Passions() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            This is Not Happening: Meth Pee*
-                            <br/>
-                            by Jessa Reed
+                            This is Not Happening: Jessa Reed
                         </a>
                     </div>
                 </div>

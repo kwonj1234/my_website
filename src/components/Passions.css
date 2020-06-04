@@ -3,14 +3,15 @@
 }
 
 .passionsContent {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .header {
     margin: 0 30%;
 }
 
-.linksDisplay {
+.display {
+    width: 100%;
     margin-top: 20px;
 }
 
@@ -20,65 +21,111 @@
 
 .passionsLink {
     width: 100%;
-    height: 500px;
+    height: 200px;
+    font-size: 200%;
+    color: white;
+    -webkit-text-stroke: 1px black;
 }
 
 .aManCalledOve {
     background: url("https://target.scene7.com/is/image/Target/GUEST_2cb253b6-fc71-43ca-b24d-31754308decd?wid=488&hei=488&fmt=pjpeg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .inferno {
     background: url("https://images-na.ssl-images-amazon.com/images/I/51Z5kuQVBjL._SX330_BO1,204,203,200_.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .theEgg {
     background: url("https://i.pinimg.com/474x/5f/cd/91/5fcd91a37deaede8b8b0591a8a14a994.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .darkSouls {
     background: url("https://gamespot1.cbsistatic.com/uploads/screen_kubrick/1595/15950357/3655886-dark%20souls%203.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .lastOfUs {
     background: url("https://cdna.artstation.com/p/assets/images/images/018/426/808/large/edward-wang-landscape.jpg?1559320875");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .pyre {
     background: url("https://i.gadgets360cdn.com/large/pyre_characters_1499320697424.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .eternalSunshine {
     background: url("https://www.siff.net//images/EDUCATION/2019/2019_SIFF_EDU_FallProgram_EternalSunshine_1600x900.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .johnWick {
     background: url("https://cdn2-www.comingsoon.net/assets/uploads/2020/05/f34dbf30a4d3a7462b1ca5b219ba9400.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .comedian {
     background: url("https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABV7kOuwT3-oMR1ng_9W6-deaAJmceaVqIhXNiZRfCjRC-213aqTG9RnzmpOO1iLjlBF7PqSuadzzmysZWteFeatUtNKw.jpg?r=64b");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .jeongKwan {
     background: url("https://cdn.vox-cdn.com/thumbor/zfp3sujaG2GVoMZgUsUnpjzWamg=/0x0:1900x1425/1200x800/filters:focal(798x561:1102x865)/cdn.vox-cdn.com/uploads/chorus_image/image/53306615/jeong_kwan_chefs_table.0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .dontFWithCats {
     background: url("https://static0.srcdn.com/wordpress/wp-content/uploads/2019/12/Netflix-Dont-Fuck-With-Cats.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .danCarlin {
     background: url("https://newcitytimes.com/images/uploads/dan-carlin-hardcore-history-review-new-city-times-gordan-runyan.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .TED {
     background: url("https://pi.tedcdn.com/r/pl.tedcdn.com/social/ted-logo-fb.png?v=wAff13s?");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .theMoth {
     background: url("https://upload.wikimedia.org/wikipedia/commons/8/8b/The_Moth_Podcast_Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .thisIsNotHappening {
     background: url("https://upload.wikimedia.org/wikipedia/en/e/e5/This_Is_Not_Happening.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

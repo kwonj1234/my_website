@@ -1,0 +1,30 @@
+.ContactMe {
+    height: 75%;
+    width: 100%;
+}
+
+.contactContent {
+    padding-bottom: 50px;
+}
+
+.contactInfo {
+    margin: auto;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.icon {
+    height: 200px;
+    width: 200px;
+}
+
+.linkedin {
+    background: url(../images/icon_linkedin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.email {
+    background: url(../images/icon_email.png) no-repeat;
+    background-size: cover;
+}
