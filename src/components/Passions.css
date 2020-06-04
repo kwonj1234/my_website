@@ -1,15 +1,26 @@
-.link {
-    display: flex;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease-in-out;
+.Passions {
+    background-color: #263C3F;
 }
 
-.link:hover {
-    filter: brightness(80%);
-    transform: scale(1.1);
+.passionsContent {
+    padding-bottom: 50px;
+}
+
+.header {
+    margin: 0 30%;
+}
+
+.linksDisplay {
+    margin-top: 20px;
+}
+
+.column {
+    width: 20%;
+}
+
+.passionsLink {
+    width: 100%;
+    height: 500px;
 }
 
 .aManCalledOve {

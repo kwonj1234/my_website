@@ -1,0 +1,25 @@
+.Projects {
+    background-color: #D28279;
+}
+
+.projectContent {
+    margin: 0 25%;
+    padding-bottom: 50px;
+}
+
+.projComponent {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.leftColumn {
+    width: 30%;
+    border: solid 1px red;
+    margin-right: 5%;
+}
+.rightColumn {
+    width: 70%;
+    text-align: left;
+}
+

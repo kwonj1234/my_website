@@ -10,7 +10,6 @@ export default function Home() {
                         <p>Hey, I'm</p>
                         <h1>Jaehwi Kwon</h1>
                         <br></br>
-                        <br></br>
                         <p className="text">NYC raised software developer</p>
                     </div>
                 </div>

@@ -35,21 +35,6 @@
     font-size: 200%;
 }
 
-/* set behavior for links in bottomHero */
-.link {
-    display: flex;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease-in-out;
-}
-
-.link:hover {
-    filter: brightness(80%);
-    transform: scale(1.1);
-}
-
 .linksDisplay {
     width: 100%;
     margin: 0 10%;

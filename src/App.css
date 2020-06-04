@@ -14,6 +14,10 @@ body > #root > div {
   height: 100vh;
 }
 
+h1 {
+  margin-bottom: 30px;
+}
+
 .App {
   text-align: center;
 }
@@ -25,4 +29,17 @@ body > #root > div {
 .row {
   display: flex;
   flex-wrap: nowrap;
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+    filter: brightness(80%);
+    transform: scale(1.1);
 }

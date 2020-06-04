@@ -1,0 +1,30 @@
+.Experience {
+    background-color: #F5CEBA;
+}
+
+.line {
+    border: solid 1px black;
+}
+
+.experienceContent {
+    margin: 0 25%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.workComponent{
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.leftColumn {
+    text-align: right;
+}
+
+.educationComponent {
+    margin-bottom: 50px;
+}
+
+.educationComponent > .leftColumn{
+    width: 50%;
+}
