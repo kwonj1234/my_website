@@ -43,3 +43,17 @@ h1 {
     filter: brightness(80%);
     transform: scale(1.1);
 }
+
+.topButton {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.topButton:hover {
+  filter: brightness(80%);
+}

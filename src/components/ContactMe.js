@@ -1,9 +1,9 @@
 import React from 'react'
 import "./ContactMe.css"
 
-export default function ContactMe() {
+export default function ContactMe(props) {
     return (
-        <div className="ContactMe">
+        <div className="ContactMe" ref={props.contactRef}>
             <br/>
             <h1>Contact Me!</h1>
             <div className="contactContent">

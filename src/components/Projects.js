@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Projects.css"
 
-export default function Projects() {
+export default function Projects(props) {
     return (
-        <div className="Projects">
+        <div className="Projects" ref={props.contactRef}>
             <br></br>
             <h1>Projects</h1>
             <div className="projectContent">
@@ -14,9 +14,9 @@ export default function Projects() {
                     <div className="rightColumn">
                         <h4>Personal Website</h4>
                         <br></br>
-                        This site right here! My first task after graduating from Byte Academy, aside
-                        from starting my job search, was to create my own personal websites to show off
-                        all my skills and showcase my style.
+                        This site right here! My first task after graduating from Byte Academy was 
+                        to create my own personal websites to show off all my skills and showcase
+                        my style.
                     </div>
                 </div>
                 <div className="row projComponent">

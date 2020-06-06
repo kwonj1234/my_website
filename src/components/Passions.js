@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Passions.css"
 
-export default function Passions() {
+export default function Passions(props) {
     return (
-        <div className="Passions">
+        <div className="Passions" ref={props.passionsRef}>
             <br></br>
             <h1>Passions</h1>
             <div className="passionsContent">

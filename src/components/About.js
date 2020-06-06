@@ -1,9 +1,9 @@
 import React from 'react'
 import "./About.css"
 
-export default function About() {
+export default function About(props) {
     return (
-        <div className="About">
+        <div className="About" ref={props.aboutRef}>
             <br></br>
             <h1>About Jae</h1>
             <div className="row aboutContent">

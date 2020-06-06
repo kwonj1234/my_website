@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Home.css"
 
-export default function Home() {
+export default function Home(props) {
     return (
-        <div className="Home">
+        <div className="Home" ref={props.homeRef}>
             <div className="hero">
                 <div className="banner">
                     <div className="bannerText">
@@ -18,9 +18,9 @@ export default function Home() {
             <div className="bottomHero">
                 <div className="linksDisplay">
                     <div className="row personalInfo">
-                        <a href="#About" className="aboutJae link"><h3>About Jae</h3></a>
+                        <a onClick={() => props.scrollToRef(props.aboutRef)} className="aboutJae link"><h3>About Jae</h3></a>
                         <div className="column workDone">
-                            <a href="#Projects" className="projects link"><h3>Projects</h3></a>
+                            <a onClick={() => props.scrollToRef(props.projectRef)} className="projects link"><h3>Projects</h3></a>
                             <a href="#Experience" className="cv link"><h3>Experiences</h3></a>
                             <a href="#Passions" className="passions link"><h3>Passions</h3></a>
                         </div>

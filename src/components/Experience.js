@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Experience.css"
 
-export default function Experience() {
+export default function Experience(props) {
     return (
-        <div className="Experience">
+        <div className="Experience" ref={props.experienceRef}>
             <br></br>
             <h1>Experience</h1>
             <p>You can download a copy of my resume <a>here</a></p>
