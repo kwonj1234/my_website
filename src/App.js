@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Passions from './components/Passions';
 import ContactMe from './components/ContactMe';
+import upArrow from './images/up_arrow.png'
 import './App.css';
 
 function App() {
@@ -64,7 +65,7 @@ function App() {
         <ContactMe contactRef={contactRef} />
         {/* If scrolledDown is true, displays scroll to top button else nothing */}
         {scrolledDown && (
-          <button onClick={scrollToTop} className="topButton" title="Go To Top"><img src="images/up_arrow.png"/></button>
+          <button onClick={scrollToTop} className="topButton" title="Go To Top"></button>
         )}
       </div>
     </BrowserRouter>
