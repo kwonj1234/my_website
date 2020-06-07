@@ -21,12 +21,12 @@ export default function Home(props) {
                         <a onClick={() => props.scrollToRef(props.aboutRef)} className="aboutJae link"><h3>About Jae</h3></a>
                         <div className="column workDone">
                             <a onClick={() => props.scrollToRef(props.projectRef)} className="projects link"><h3>Projects</h3></a>
-                            <a href="#Experience" className="cv link"><h3>Experiences</h3></a>
-                            <a href="#Passions" className="passions link"><h3>Passions</h3></a>
+                            <a onClick={() => props.scrollToRef(props.experienceRef)} className="cv link"><h3>Experiences</h3></a>
+                            <a onClick={() => props.scrollToRef(props.passionsRef)} className="passions link"><h3>Passions</h3></a>
                         </div>
                     </div>
                     <div className="row contact">
-                        <a href="#ContactMe" className="contactMe link"><h3>Contact Me</h3></a>
+                        <a onClick={() => props.scrollToRef(props.contactRef)} className="contactMe link"><h3>Contact Me</h3></a>
                     </div>
                 </div>
             </div>

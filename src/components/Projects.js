@@ -3,7 +3,7 @@ import "./Projects.css"
 
 export default function Projects(props) {
     return (
-        <div className="Projects" ref={props.contactRef}>
+        <div className="Projects" ref={props.projectRef}>
             <br></br>
             <h1>Projects</h1>
             <div className="projectContent">

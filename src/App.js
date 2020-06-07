@@ -51,20 +51,20 @@ function App() {
         <Home 
           homeRef={homeRef}
           aboutRef={aboutRef}
-          profectRef={projectRef}
+          projectRef={projectRef}
           experienceRef={experienceRef}
-          passionRef={passionsRef}
+          passionsRef={passionsRef}
           contactRef={contactRef}
           scrollToRef={scrollToRef}
         />
         <About aboutRef={aboutRef} />
         <Projects projectRef={projectRef} />
         <Experience experienceRef={experienceRef} />
-        <Passions passionRef={passionsRef} />
+        <Passions passionsRef={passionsRef} />
         <ContactMe contactRef={contactRef} />
         {/* If scrolledDown is true, displays scroll to top button else nothing */}
         {scrolledDown && (
-          <button onClick={scrollToTop} className="topButton" title="Go To Top">Top</button>
+          <button onClick={scrollToTop} className="topButton" title="Go To Top"><img src="images/up_arrow.png"/></button>
         )}
       </div>
     </BrowserRouter>
