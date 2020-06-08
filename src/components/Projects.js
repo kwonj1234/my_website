@@ -8,9 +8,7 @@ export default function Projects(props) {
             <h1>Projects</h1>
             <div className="projectContent">
                 <div className="row projComponent">
-                    <div className="leftColumn">
-                        Insert my_website image
-                    </div>
+                    <div className="leftColumn my_website-image" />
                     <div className="rightColumn">
                         <h4>Personal Website</h4>
                         <br></br>
@@ -20,9 +18,7 @@ export default function Projects(props) {
                     </div>
                 </div>
                 <div className="row projComponent">
-                    <div className="leftColumn">
-                        Insert Recipedex Image
-                    </div>
+                    <div className="leftColumn recipedex-image" />
                     <div className="rightColumn">
                         <h4>RecipeDex</h4>
                         <p>Solo Project at ByteAcademy</p>

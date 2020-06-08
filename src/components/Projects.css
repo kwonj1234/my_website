@@ -23,3 +23,14 @@
     text-align: left;
 }
 
+.my_website-image {
+    background: url(../images/my_webiste.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.recipedex-image {
+    background: url(../images/recipedex_screenshot.jpg);
+    background-position: center;
+    background-size: cover;
+}
