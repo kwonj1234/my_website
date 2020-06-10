@@ -28,7 +28,13 @@ export default function Projects(props) {
                         separate accounts for whatever site the recipe was located in. It uses 
                         recipe-scrapers, a python package that uses BeautifulSoup4, to scrape and 
                         format recipes from 56 different websites. You can find my contribution to
-                        the recipe-scrapers tool <a href="https://github.com/hhursev/recipe-scrapers/blob/master/recipe_scrapers/delish.py">here</a>.
+                        the recipe-scrapers tool <a 
+                            href="https://github.com/hhursev/recipe-scrapers/blob/master/recipe_scrapers/delish.py" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            here
+                        </a>.
                     </div>
                 </div>
                 <div className="row projComponent">

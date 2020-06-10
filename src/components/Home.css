@@ -35,7 +35,24 @@
     font-size: 200%;
 }
 
-.linksDisplay {
+/* Buttons is styled how link classNames are styled in css 
+   Only difference is that buttons perform a function and do not redirect */
+button {
+    display: flex;
+    text-decoration: none;
+    font-size: 200%;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    filter: brightness(80%);
+    transform: scale(1.1);
+    cursor: pointer;
+  }  
+
+.buttonsDisplay {
     width: 100%;
     margin: 0 10%;
     height: 80%;
