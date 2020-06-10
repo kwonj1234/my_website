@@ -15,7 +15,6 @@
 
 .leftColumn {
     width: 30%;
-    border: solid 1px red;
     margin-right: 5%;
 }
 .rightColumn {
@@ -31,6 +30,12 @@
 
 .recipedex-image {
     background: url(../images/recipedex_screenshot.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.prettyCity-image {
+    background: url(../images/prettyCity_screenshot.png);
     background-position: center;
     background-size: cover;
 }

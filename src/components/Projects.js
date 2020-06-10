@@ -32,9 +32,7 @@ export default function Projects(props) {
                     </div>
                 </div>
                 <div className="row projComponent">
-                    <div className="leftColumn">
-                        Insert PrettyCity Image
-                    </div>
+                    <div className="leftColumn prettyCity-image"/>
                     <div className="rightColumn">
                         <h4>PrettyCity</h4>
                         <p>Team Project at ByteAcademy</p>

@@ -15,7 +15,7 @@ export default function Passions(props) {
                     </p>
                     <br></br>
                     <h4>Check out some of these stories that have stuck with me.</h4>
-                    <p>*Warning: content may include disturbing images, profanity, or references to drugs</p>
+                    <p>*Warning: content may include disturbing images, profanity, and/or references to drugs</p>
                 </div>
                 <div className="row display">
                     <div className="column">

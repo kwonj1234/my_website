@@ -6,7 +6,6 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Passions from './components/Passions';
 import ContactMe from './components/ContactMe';
-import upArrow from './images/up_arrow.png'
 import './App.css';
 
 function App() {
@@ -14,24 +13,18 @@ function App() {
   const [scrolledDown, setScrolledDown] = useState(false)
   // display button to scroll back to top if user scroll down more than 500px from top
   const toggleVisibility = () => {
-    if (!scrolledDown && window.pageYOffset > 1500) {
+    if (!scrolledDown && window.pageYOffset > 1400) {
       setScrolledDown(true)
-    } else if (scrolledDown && window.pageYOffset <= 1500) {
+    } else if (scrolledDown && window.pageYOffset <= 1400) {
       setScrolledDown(false)
     }
   }
   // when user scrolls, if will activate toggleVisibility
   window.addEventListener("scroll", toggleVisibility)
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 805,
-      behavior: "smooth"
-    });
-  }
-
   // Create useRef hooks
   const homeRef = useRef(null);
+  const navRef = useRef(null);
   const aboutRef = useRef(null);
   const projectRef = useRef(null);
   const experienceRef = useRef(null);
@@ -51,6 +44,7 @@ function App() {
       <div className="App">
         <Home 
           homeRef={homeRef}
+          navRef={navRef}
           aboutRef={aboutRef}
           projectRef={projectRef}
           experienceRef={experienceRef}
@@ -65,7 +59,7 @@ function App() {
         <ContactMe contactRef={contactRef} />
         {/* If scrolledDown is true, displays scroll to top button else nothing */}
         {scrolledDown && (
-          <button onClick={scrollToTop} className="topButton" title="Go To Top"></button>
+          <button onClick={() => scrollToRef(navRef)} className="topButton" title="Go To Top"></button>
         )}
       </div>
     </BrowserRouter>

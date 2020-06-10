@@ -15,18 +15,18 @@ export default function Home(props) {
                 </div>
             </div>
             {/* links should jump to corresponding sections */}
-            <div className="bottomHero">
+            <div className="bottomHero" ref={props.navRef}>
                 <div className="linksDisplay">
                     <div className="row personalInfo">
-                        <a onClick={() => props.scrollToRef(props.aboutRef)} className="aboutJae link"><h3>About Jae</h3></a>
+                        <button onClick={() => props.scrollToRef(props.aboutRef)} className="aboutJae link"><h3>About Jae</h3></button>
                         <div className="column workDone">
-                            <a onClick={() => props.scrollToRef(props.projectRef)} className="projects link"><h3>Projects</h3></a>
-                            <a onClick={() => props.scrollToRef(props.experienceRef)} className="cv link"><h3>Experiences</h3></a>
-                            <a onClick={() => props.scrollToRef(props.passionsRef)} className="passions link"><h3>Passions</h3></a>
+                            <button onClick={() => props.scrollToRef(props.projectRef)} className="projects link"><h3>Projects</h3></button>
+                            <button onClick={() => props.scrollToRef(props.experienceRef)} className="cv link"><h3>Experiences</h3></button>
+                            <button onClick={() => props.scrollToRef(props.passionsRef)} className="passions link"><h3>Passions</h3></button>
                         </div>
                     </div>
                     <div className="row contact">
-                        <a onClick={() => props.scrollToRef(props.contactRef)} className="contactMe link"><h3>Contact Me</h3></a>
+                        <button onClick={() => props.scrollToRef(props.contactRef)} className="contactMe link"><h3>Contact Me</h3></button>
                     </div>
                 </div>
             </div>
