@@ -26,6 +26,11 @@
     margin-bottom: 50px;
 }
 
+.educationComponent {
+    margin-bottom: 20px;
+}
+
 .educationComponent > .leftColumn{
     width: 50%;
 }
+

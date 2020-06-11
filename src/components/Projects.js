@@ -8,9 +8,10 @@ export default function Projects(props) {
             <h1>Projects</h1>
             <div className="projectContent">
                 <div className="row projComponent">
-                    <div className="leftColumn my_website-image" />
+                    <a href="https://github.com/kwonj1234/my_website" className="leftColumn my_website-image" />
                     <div className="rightColumn">
                         <h4>Personal Website</h4>
+                        <p>June 2020</p>
                         <br></br>
                         This site right here! My first task after graduating from Byte Academy was 
                         to create my own personal websites to show off all my skills and showcase
@@ -18,9 +19,10 @@ export default function Projects(props) {
                     </div>
                 </div>
                 <div className="row projComponent">
-                    <div className="leftColumn recipedex-image" />
+                    <a href="https://github.com/kwonj1234/recipedex_frontend" className="leftColumn recipedex-image" />
                     <div className="rightColumn">
                         <h4>RecipeDex</h4>
+                        <p>April 2020</p>
                         <p>Solo Project at ByteAcademy</p>
                         <br></br>
                         Recipedex is a web application that provides user a place to scrape recipes
@@ -38,9 +40,10 @@ export default function Projects(props) {
                     </div>
                 </div>
                 <div className="row projComponent">
-                    <div className="leftColumn prettyCity-image"/>
+                    <a href="https://github.com/mbraly01/Pretty_City_Frontend" className="leftColumn prettyCity-image"/>
                     <div className="rightColumn">
                         <h4>PrettyCity</h4>
+                        <p>April 2020</p>
                         <p>Team Project at ByteAcademy</p>
                         <br></br>
                         A product similar to the Citizen mobile app, PrettyCity used the NYC311 api 
