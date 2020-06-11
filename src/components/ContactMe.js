@@ -12,13 +12,13 @@ export default function ContactMe(props) {
             <div className="row contactInfo">
                 <a 
                     href="https://www.linkedin.com/in/jaehwi-kwon/" 
-                    className="icon linkedin" 
+                    className="icon linkedin-icon" 
                     target="_blank" 
                     rel="noopener noreferrer"
                 />
                 <a
                     href="mailto:jaehwikwn@gmail.com" 
-                    className="icon email" 
+                    className="icon email-icon" 
                     target="_blank"
                     rel="noopener noreferrer"
                 />

@@ -55,7 +55,7 @@ function App() {
         <About aboutRef={aboutRef} />
         <Projects projectRef={projectRef} />
         <Experience experienceRef={experienceRef} />
-        <Passions passionsRef={passionsRef} />
+        {/* <Passions passionsRef={passionsRef} /> */}
         <ContactMe contactRef={contactRef} />
         {/* If scrolledDown is true, displays scroll to top button else nothing */}
         {scrolledDown && (

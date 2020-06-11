@@ -22,7 +22,7 @@ export default function Home(props) {
                         <div className="column workDone">
                             <button onClick={() => props.scrollToRef(props.projectRef)} className="projects"><h3>Projects</h3></button>
                             <button onClick={() => props.scrollToRef(props.experienceRef)} className="cv"><h3>Experiences</h3></button>
-                            <button onClick={() => props.scrollToRef(props.passionsRef)} className="passions"><h3>Passions</h3></button>
+                            {/* <button onClick={() => props.scrollToRef(props.passionsRef)} className="passions"><h3>Passions</h3></button> */}
                         </div>
                     </div>
                     <div className="row contact">
