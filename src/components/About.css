@@ -1,5 +1,5 @@
 .About {
-    background-color: #60AAB6;
+    background-color: wheat;
 }
 
 .aboutContent {
@@ -11,7 +11,7 @@
     text-align: left;
     width: 30%;
     margin-top: 3%;
-    margin-right: 5%
+    margin-right: 50px;
 }
 
 .selfie {
@@ -19,14 +19,16 @@
     width: 300px;
     float: left;
     border-radius: 50%;
-    background-color: grey;
+    background: url(../images/self.jpg);
+    background-position: 50%;
+    background-size: 100%;
 }
 
 .skills {
-    margin: 4% auto;
+    margin: 3% auto;
 }
 
-.skills h2 {
+.About h2 {
     margin-bottom: 5%;
 }
 

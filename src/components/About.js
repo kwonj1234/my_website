@@ -5,9 +5,10 @@ export default function About(props) {
     return (
         <div className="About" ref={props.aboutRef}>
             <br></br>
-            <h1>About Jae</h1>
+            <h1 className="section-title">Profile</h1>
             <div className="row aboutContent">
                 <div className="selfDescrip">
+                    <h2>About Jae</h2>
                     <p>
                         Environmental Engineer, healthcare provider, air quality inspector
                         turned software developer. I love optimization, there is always a 

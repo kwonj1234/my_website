@@ -22,6 +22,10 @@ h1 {
   text-align: center;
 }
 
+.section-title {
+  font-size: 400%;
+}
+
 .no-style {
   list-style: none;
 }

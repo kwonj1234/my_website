@@ -1,5 +1,9 @@
 .Projects {
-    background-color: #D28279;
+    /* background-color: rgb(212, 212, 212); */
+}
+
+.Projects h4 {
+    color: blue;
 }
 
 .projectContent {
@@ -23,19 +27,22 @@
 }
 
 .my_website-image {
-    background: url(../images/my_webiste.png);
+    background: url(../images/my_website.png);
     background-position: center;
     background-size: cover;
+    border-radius: 5%;
 }
 
 .recipedex-image {
     background: url(../images/recipedex_screenshot.jpg);
     background-position: center;
     background-size: cover;
+    border-radius: 5%;
 }
 
 .prettyCity-image {
     background: url(../images/prettyCity_screenshot.png);
     background-position: center;
     background-size: cover;
+    border-radius: 5%;
 }

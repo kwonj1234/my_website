@@ -1,5 +1,5 @@
 .Experience {
-    background-color: #F5CEBA;
+    background-color: wheat;
 }
 
 .line {
@@ -14,11 +14,15 @@
 
 .workComponent{
     height: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .leftColumn {
     text-align: right;
+}
+
+.leftColumn p {
+    font-style: italic;
 }
 
 .educationHistory {
