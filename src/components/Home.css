@@ -44,13 +44,14 @@ button {
     align-items: center;
     justify-content: center;
     transition: all 0.2s ease-in-out;
-  }
-  
-  button:hover {
-    filter: brightness(80%);
-    transform: scale(1.1);
-    cursor: pointer;
-  }  
+    overflow: hidden;
+}
+
+button:hover {
+filter: brightness(80%);
+transform: scale(1.1);
+cursor: pointer;
+}  
 
 .buttonsDisplay {
     width: 100%;
