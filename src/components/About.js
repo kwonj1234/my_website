@@ -33,7 +33,7 @@ export default function About(props) {
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>SQL (Sqlite)</li>
-                            <li>Bash</li>
+                            <li>Firebase</li>
                         </ul>
                     </div>
                 </div>

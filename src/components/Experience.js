@@ -17,6 +17,23 @@ export default function Experience(props) {
           <br></br>
           <div className="row workComponent">
             <div className="leftColumn">
+              <h3>Spryte Labs</h3>
+              <p>June 2020 - Present</p>
+            </div>
+            <div className="rightColumn">
+              <h4>Software Engineering Intern</h4>
+              <p>
+                This was a remote position that utilized a sprint methodology to push a new feature
+                every 2-weeks to Spryte's commercial site. The site was built using React, a 
+                firebase database, cloud functions and many components used were from the 
+                Material UI and Syncfusion React component libraries. As an intern, I worked on
+                styling the website, ensuring clients can access their data, and build write
+                cloud functions that handle changes within the firestore database.
+              </p>
+            </div>
+          </div>
+          <div className="row workComponent">
+            <div className="leftColumn">
               <h3>Nulife Med LLC</h3>
               <p>Feburary 2018 - January 2020</p>
             </div>
