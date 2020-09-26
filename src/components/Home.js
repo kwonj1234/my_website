@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Home.css";
-import Navbar from "./Navbar.js";
+import "../scss/Home.scss";
+// import Navbar from "./Navbar.js";
 
 export default function Home(props) {
   return (

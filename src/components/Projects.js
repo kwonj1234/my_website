@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Projects.css"
+import "../scss/Projects.scss"
 
 export default function Projects(props) {
     return (
@@ -8,7 +8,7 @@ export default function Projects(props) {
             <h1 className="section-title">Projects</h1>
             <div className="projectContent">
                 <div className="row projComponent">
-                    <a href="https://github.com/kwonj1234/my_website" className="leftColumn my_website-image" target="_blank" rel="noopener noreferrer"/>
+                    <a href="https://github.com/kwonj1234/my_website" className="leftColumn my_website-image" alt="" target="_blank" rel="noopener noreferrer"/>
                     <div className="rightColumn">
                         <h4>Personal Website</h4>
                         <br></br>

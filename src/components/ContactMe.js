@@ -1,5 +1,5 @@
 import React from 'react'
-import "./ContactMe.css"
+import "../scss/ContactMe.scss"
 
 export default function ContactMe(props) {
   return (
@@ -11,10 +11,10 @@ export default function ContactMe(props) {
       </div>
       <div className="row icon-container">
         <a href="https://www.linkedin.com/in/jaehwi-kwon/" target="_blank" rel="noopener noreferrer">
-          <img src="https://pluspng.com/img-png/linkedin-icon-png-linkedin-icon-image-512.png" className="icon-linkedin"/>
+          <img src="https://pluspng.com/img-png/linkedin-icon-png-linkedin-icon-image-512.png" className="icon-linkedin" alt=""/>
         </a>
         <a href="mailto:jaehwikwn@gmail.com" target="_blank" rel="noopener noreferrer">
-          <img src="https://www.iconsdb.com/icons/download/gray/mail-512.png" className="icon-email"/>
+          <img src="https://www.iconsdb.com/icons/download/gray/mail-512.png" className="icon-email" alt=""/>
         </a>
       </div>
     </div>

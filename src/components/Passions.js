@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Passions.css"
+import "../scss/Passions.scss"
 
 export default function Passions(props) {
     return (
