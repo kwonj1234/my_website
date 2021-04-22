@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Home from './components/Home';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
@@ -9,8 +10,13 @@ import ContactMe from './components/ContactMe';
 import './scss/App.scss';
 
 function App() {
+
   // variable to track if user scrolled down more than 500px from top
   const [scrolledDown, setScrolledDown] = useState(false)
+  // Variables to track screen size
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+
   // display button to scroll back to top if user scroll down more than 500px from top
   const toggleVisibility = () => {
     if (!scrolledDown && window.pageYOffset > 1400) {
@@ -19,31 +25,42 @@ function App() {
       setScrolledDown(false)
     }
   }
-  // when user scrolls, if will activate toggleVisibility
-  window.addEventListener("scroll", toggleVisibility)
 
   // Create useRef hooks
-  const homeRef = useRef(null);
+  const heroRef = useRef(null);
   const navRef = useRef(null);
   const aboutRef = useRef(null);
   const projectRef = useRef(null);
   const experienceRef = useRef(null);
   const passionsRef = useRef(null);
   const contactRef = useRef(null);
+
   // Scroll To a section
   const scrollToRef = (ref) => {
     window.scrollTo(0, ref.current.offsetTop)
   };
 
-  const useMountEffect = (fun) => useEffect(fun, []);
-  useMountEffect(() => scrollToRef(homeRef));
+  // Mount the app
+  useEffect(() => {
 
+    // when user scrolls, if will activate toggleVisibility
+    window.addEventListener("scroll", toggleVisibility)
+    scrollToRef(heroRef)
+
+    // Event listener for when the user changes screen size
+    window.addEventListener("resize", () => {
+      setWindowWidth(window.innerWidth);
+      setWindowHeight(window.innerHeight);
+    });
+
+  }, []);
 
   return (
     <BrowserRouter className="Browser">
       <div className="App">
-        <Home 
-          homeRef={homeRef}
+        <Hero heroRef={heroRef} />
+        <Navbar 
+          windowWidth={windowWidth}
           navRef={navRef}
           aboutRef={aboutRef}
           projectRef={projectRef}

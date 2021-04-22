@@ -21,11 +21,11 @@ h1 {
 
 .App {
   text-align: center;
-  width: 1585px;
+  width: 100%;
 }
 
 .section-title {
-  font-size: 400%;
+  font-size: 4vw;
 }
 
 .no-style {
@@ -53,10 +53,10 @@ h1 {
 
 .topButton {
   position: fixed;
-  height: 100px;
-  width: 100px;
-  bottom: 0;
-  right: 30px;
+  height: 70px;
+  width: 70px;
+  bottom: 1vh;
+  right: 1vw;
   z-index: 99;
   cursor: pointer;
   background: url(../images/up_arrow.png);
@@ -64,6 +64,7 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
+  border-radius: 100%;
 }
 
 .topButton:hover {
