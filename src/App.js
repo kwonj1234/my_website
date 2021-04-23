@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Hero from './components/Hero';
-import Navbar from './components/Navbar';
+import NavMenu from './components/NavMenu';
 import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
@@ -60,7 +60,7 @@ function App() {
     <BrowserRouter className="Browser">
       <div className="App">
         <Hero heroRef={heroRef} />
-        <Navbar 
+        <NavMenu
           windowWidth={windowWidth}
           navRef={navRef}
           aboutRef={aboutRef}
