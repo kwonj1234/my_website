@@ -2,6 +2,11 @@
     background-color: wheat;
 }
 
+.About-mobile {
+    background-color: wheat;
+}
+
+
 .aboutContent {
     margin: 0 20%;
     padding-bottom: 50px;
@@ -14,18 +19,33 @@
     margin-right: 50px;
 }
 
+.selfDescrip-mobile {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+}
+
 .selfie {
+    margin: 3% auto;
     height: 300px;
     width: 300px;
-    float: left;
     border-radius: 50%;
     background: url(../images/self.jpg);
     background-position: 50%;
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .skills {
     margin: 3% auto;
+}
+
+.skills-mobile {
+    margin: 3% auto;
+    padding-bottom: 30px;
 }
 
 .About h2 {

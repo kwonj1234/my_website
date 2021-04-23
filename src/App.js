@@ -17,15 +17,6 @@ function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
 
-  // display button to scroll back to top if user scroll down more than 500px from top
-  const toggleVisibility = () => {
-    if (!scrolledDown && window.pageYOffset > 1400) {
-      setScrolledDown(true)
-    } else if (scrolledDown && window.pageYOffset <= 1400) {
-      setScrolledDown(false)
-    }
-  }
-
   // Create useRef hooks
   const heroRef = useRef(null);
   const navRef = useRef(null);
@@ -43,17 +34,27 @@ function App() {
   // Mount the app
   useEffect(() => {
 
-    // when user scrolls, if will activate toggleVisibility
-    window.addEventListener("scroll", toggleVisibility)
+    // On mount scroll to the top of the page
     scrollToRef(heroRef)
+
+    // when user scrolls,
+    // display button to scroll back to top if user scroll down more than 500px from top
+    window.addEventListener("scroll", () => {
+      if (!scrolledDown && window.pageYOffset > 1400) {
+        setScrolledDown(true)
+      } else if (scrolledDown && window.pageYOffset <= 1400) {
+        setScrolledDown(false)
+      }
+    })
 
     // Event listener for when the user changes screen size
     window.addEventListener("resize", () => {
+      console.log(window.innerWidth )
       setWindowWidth(window.innerWidth);
       setWindowHeight(window.innerHeight);
     });
 
-  }, []);
+  }, [scrolledDown]);
 
   return (
     <BrowserRouter className="Browser">
@@ -69,7 +70,7 @@ function App() {
           contactRef={contactRef}
           scrollToRef={scrollToRef}
         />
-        <About aboutRef={aboutRef} />
+        <About aboutRef={aboutRef} windowWidth={windowWidth} />
         <Projects projectRef={projectRef} />
         <Experience experienceRef={experienceRef} />
         {/* <Passions passionsRef={passionsRef} /> */}
