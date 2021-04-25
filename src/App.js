@@ -13,7 +13,9 @@ import './scss/App.scss';
 function App() {
 
   // variable to track if user scrolled down more than 500px from top
-  const [scrolledDown, setScrolledDown] = useState(false)
+  const [scrolledDown, setScrolledDown] = useState(false);
+  // variable to track if navbar is visible. If Y offset is not 0, make it not visible.
+  const [isNavbarVisible, setNavbarVisibility] = useState(true);
   // Variables to track screen size
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
@@ -39,19 +41,30 @@ function App() {
     // scrollToRef(heroRef)
 
     // when user scrolls,
-    // display button to scroll back to top if user scroll down more than 500px from top
     window.addEventListener("scroll", () => {
-      if (!scrolledDown && window.pageYOffset > 1400) {
+
+      // display navbar when user is 0 Y-offset
+      if (window.pageYOffset > 0) {
+        setNavbarVisibility(false)
+      } else if (window.pageYOffset <= 0) {
+        setNavbarVisibility(true)
+      }
+
+      // display button to scroll back to top if user scroll down more than 500px from top
+      if (!scrolledDown && window.pageYOffset > 500) {
         setScrolledDown(true)
-      } else if (scrolledDown && window.pageYOffset <= 1400) {
+      } else if (scrolledDown && window.pageYOffset <= 500) {
         setScrolledDown(false)
       }
+
     })
 
     // Event listener for when the user changes screen size
     window.addEventListener("resize", () => {
+
       setWindowWidth(window.innerWidth);
       setWindowHeight(window.innerHeight);
+
     });
 
   }, [scrolledDown]);
@@ -59,15 +72,17 @@ function App() {
   return (
     <BrowserRouter className="Browser">
       <div className="App">
-        <Navbar           
-          windowWidth={windowWidth}
-          aboutRef={aboutRef}
-          projectRef={projectRef}
-          experienceRef={experienceRef}
-          passionsRef={passionsRef}
-          contactRef={contactRef}
-          scrollToRef={scrollToRef}
-        />
+        { isNavbarVisible && (
+          <Navbar           
+            windowWidth={windowWidth}
+            aboutRef={aboutRef}
+            projectRef={projectRef}
+            experienceRef={experienceRef}
+            passionsRef={passionsRef}
+            contactRef={contactRef}
+            scrollToRef={scrollToRef}
+          />
+        )}
         <Hero heroRef={heroRef} />
         {/* <NavMenu
           windowWidth={windowWidth}
