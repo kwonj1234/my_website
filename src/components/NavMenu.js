@@ -7,7 +7,7 @@ export default function Navbar(props) {
   const { navRef, aboutRef, projectRef, experienceRef, contactRef, windowWidth, scrollToRef } = props;
 
   return (
-    <div className={windowWidth > 800 ? "navbar" : "navbar-mobile"} ref={navRef}>
+    <div className={windowWidth > 800 ? "navmenu" : "navmenu-mobile"} ref={navRef}>
       {/* links should jump to corresponding sections */}
       { windowWidth > 800 ?
         <div className="buttonsDisplay">

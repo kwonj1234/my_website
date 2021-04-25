@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 import NavMenu from './components/NavMenu';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -35,7 +36,7 @@ function App() {
   useEffect(() => {
 
     // On mount scroll to the top of the page
-    scrollToRef(heroRef)
+    // scrollToRef(heroRef)
 
     // when user scrolls,
     // display button to scroll back to top if user scroll down more than 500px from top
@@ -49,7 +50,6 @@ function App() {
 
     // Event listener for when the user changes screen size
     window.addEventListener("resize", () => {
-      console.log(window.innerWidth )
       setWindowWidth(window.innerWidth);
       setWindowHeight(window.innerHeight);
     });
@@ -59,8 +59,7 @@ function App() {
   return (
     <BrowserRouter className="Browser">
       <div className="App">
-        <Hero heroRef={heroRef} />
-        <NavMenu
+        <Navbar           
           windowWidth={windowWidth}
           navRef={navRef}
           aboutRef={aboutRef}
@@ -70,6 +69,17 @@ function App() {
           contactRef={contactRef}
           scrollToRef={scrollToRef}
         />
+        <Hero heroRef={heroRef} />
+        {/* <NavMenu
+          windowWidth={windowWidth}
+          navRef={navRef}
+          aboutRef={aboutRef}
+          projectRef={projectRef}
+          experienceRef={experienceRef}
+          passionsRef={passionsRef}
+          contactRef={contactRef}
+          scrollToRef={scrollToRef}
+        /> */}
         <About aboutRef={aboutRef} windowWidth={windowWidth} />
         <Projects projectRef={projectRef} />
         <Experience experienceRef={experienceRef} />
