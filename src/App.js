@@ -61,7 +61,6 @@ function App() {
       <div className="App">
         <Navbar           
           windowWidth={windowWidth}
-          navRef={navRef}
           aboutRef={aboutRef}
           projectRef={projectRef}
           experienceRef={experienceRef}
