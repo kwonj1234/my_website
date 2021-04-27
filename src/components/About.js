@@ -7,7 +7,7 @@ export default function About(props) {
 	const { aboutRef, windowWidth } = props;
 
 	return (
-		windowWidth > 1100? 
+		windowWidth > 1100 ? 
 			<div className="About" ref={aboutRef}>
 				<br></br>
 				<h1 className="section-title">Profile</h1>

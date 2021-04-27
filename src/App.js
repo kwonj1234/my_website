@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import NavMenu from './components/NavMenu';
+// import NavMenu from './components/NavMenu';
 import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
@@ -18,7 +18,6 @@ function App() {
   const [isNavbarVisible, setNavbarVisibility] = useState(true);
   // Variables to track screen size
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
 
   // Create useRef hooks
   const heroRef = useRef(null);
@@ -63,7 +62,6 @@ function App() {
     window.addEventListener("resize", () => {
 
       setWindowWidth(window.innerWidth);
-      setWindowHeight(window.innerHeight);
 
     });
 
