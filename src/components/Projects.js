@@ -30,9 +30,9 @@ export default function Projects(props) {
 					href="https://github.com/kwonj1234/recipedex_frontend"
 					imageStyle="recipedex-image"
 				>
-					Recipedex is a web application that provides user a place to scrape recipes
+					RecipeDex is a web application that provides users a place to scrape recipes
 					from the internet and store them for future reference without having to have
-					separate accounts for whatever site the recipe was located in. It uses 
+					separate accounts for each site the recipe was located in. It uses 
 					recipe-scrapers, a python package that uses BeautifulSoup4, to scrape and 
 					format recipes from 56 different websites. You can find my contribution to
 					the recipe-scrapers tool <a 
@@ -50,10 +50,10 @@ export default function Projects(props) {
 					href="https://github.com/mbraly01/Pretty_City_Frontend"
 					imageStyle="prettyCity-image"
 				>
-					A product similar to the Citizen mobile app, PrettyCity used the NYC311 api 
+					A product similar to the Citizen mobile app, PrettyCity used the NYC311 API
 					to give New Yorkers a visual representation of complaints in their area. Using 
 					MaterialUI and Google Maps we showed pins on a map that represented all complaints
-					reported to the 311 api.  Originally envisioned for infrastructure damage, 
+					reported to the 311.  Originally envisioned for infrastructure damage, 
 					such as potholes or fallen trees, we expanded what users can see and added a filter.
 				</ProjectCard>
 
