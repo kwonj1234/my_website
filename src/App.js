@@ -93,10 +93,10 @@ function App() {
           scrollToRef={scrollToRef}
         /> */}
         <About aboutRef={aboutRef} windowWidth={windowWidth} />
-        <Projects projectRef={projectRef} />
-        <Experience experienceRef={experienceRef} />
+        <Projects projectRef={projectRef} windowWidth={windowWidth} />
+        <Experience experienceRef={experienceRef} windowWidth={windowWidth} />
         {/* <Passions passionsRef={passionsRef} /> */}
-        <ContactMe contactRef={contactRef} />
+        <ContactMe contactRef={contactRef} windowWidth={windowWidth} />
         {/* If scrolledDown is true, displays scroll to top button else nothing */}
         {scrolledDown && (
           <button onClick={() => scrollToRef(navRef)} className="topButton" title="Go To Top"></button>

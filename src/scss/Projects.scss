@@ -1,7 +1,3 @@
-.Projects {
-    /* background-color: #CAC773; */
-}
-
 .Projects h4 {
     color: blue;
 }
@@ -14,7 +10,12 @@
 .projComponent {
     width: 100%;
     height: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 10%;
+}
+
+.projComponent-mobile {
+    width: 100%;
+    margin-bottom: 20%;
 }
 
 .leftColumn {
@@ -28,21 +29,25 @@
 
 .my_website-image {
     background: url(../images/my_website.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 5%;
 }
 
 .recipedex-image {
     background: url(../images/recipedex_screenshot.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 5%;
 }
 
 .prettyCity-image {
     background: url(../images/prettyCity_screenshot.png);
+}
+
+.project-image {
     background-position: center;
     background-size: cover;
     border-radius: 5%;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
 }

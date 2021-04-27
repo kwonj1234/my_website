@@ -11,7 +11,6 @@ export default function About(props) {
 			<div className="About" ref={aboutRef}>
 				<br></br>
 				<h1 className="section-title">Profile</h1>
-
 				<div className="row aboutContent">
 					<div className="selfDescrip">
 						<h2>About Jae</h2>
