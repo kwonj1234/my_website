@@ -12,9 +12,25 @@
     padding-bottom: 50px;
 }
 
+.experienceContent-mobile {
+    margin: 0 7%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
 .workComponent{
-    height: 200px;
-    margin: 12px 16px;
+    // margin: 12px 16px;
+    padding: 24px;
+}
+
+.workComponent.mobile{
+    // margin: 12px 16px;
+    padding: 24px;
+    margin: auto;
+}
+
+.experience-company {
+    margin-bottom: 12px;
 }
 
 .leftColumn {
@@ -25,8 +41,11 @@
     font-style: italic;
 }
 
+.rightColumn {
+    height: 100%;
+}
+
 .educationHistory {
-    margin-top: -50px;
     margin-bottom: 50px;
 }
 

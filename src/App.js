@@ -21,7 +21,7 @@ function App() {
 
   // Create useRef hooks
   const heroRef = useRef(null);
-  const navRef = useRef(null);
+  // const navRef = useRef(null);
   const aboutRef = useRef(null);
   const projectRef = useRef(null);
   const experienceRef = useRef(null);
@@ -99,7 +99,7 @@ function App() {
         <ContactMe contactRef={contactRef} windowWidth={windowWidth} />
         {/* If scrolledDown is true, displays scroll to top button else nothing */}
         {scrolledDown && (
-          <button onClick={() => scrollToRef(navRef)} className="topButton" title="Go To Top"></button>
+          <button onClick={() => scrollToRef(heroRef)} className="topButton" title="Go To Top"></button>
         )}
       </div>
     </BrowserRouter>
