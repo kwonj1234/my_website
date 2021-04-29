@@ -15,13 +15,12 @@ export default function About(props) {
 					<div className="selfDescrip">
 						<h2>About Jae</h2>
 						<p>
-								Environmental Engineer, healthcare provider, air quality inspector
-								turned software developer. I love optimization, there is always a 
-								better way to do a task and I intend to find those ways. I tend to
-								fixate on details until they reflect what I envision but, as a 
-								developing programmer, I am always open to suggestions. For that
-								reason, I prefer working in teams. Sometimes, a rubber duck just isn't
-								enough.
+							Environmental Engineer, healthcare provider, air quality inspector turned software
+							developer. I began learning Python on my own prior to enrolling in Byte Academy
+							where I was taught Flask, Sqlite, JavaScript and React. Since graduating from Byte 
+							Academy I have also had the opportunity to learn Firebase, Google Cloud, and Flutter 
+							from great mentors at Spryte Labs and PlateRate. When I am not working I enjoy playing
+							chess, video games and triathlon sports.
 						</p>
 					</div>
 					<div className="selfie"/>
@@ -70,13 +69,12 @@ export default function About(props) {
 					<div className="selfDescrip-mobile">
 						<h2>About Jae</h2>
 						<p>
-								Environmental Engineer, DME technician, air quality inspector
-								turned software developer. I love optimization, there is always a 
-								better way to do a task and I intend to find those ways. I tend to
-								fixate on details until they reflect what I envision but, as a 
-								developing programmer, I am always open to suggestions. For that
-								reason, I prefer working in teams. Sometimes, a rubber duck just isn't
-								enough.
+							Environmental Engineer, healthcare provider, air quality inspector turned software
+							developer. I began learning Python on my own prior to enrolling in Byte Academy
+							where I was taught Flask, Sqlite, JavaScript and React. Since graduating from Byte 
+							Academy I have also had the opportunity to learn Firebase, Google Cloud, and Flutter 
+							from great mentors at Spryte Labs and PlateRate. When I am not working I enjoy playing
+							chess, video games and triathlon sports.
 						</p>
 					</div>
 				</div>

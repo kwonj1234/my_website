@@ -14,6 +14,7 @@ export default function Projects(props) {
 			<div className={windowWidth > 900 ? "projectContent" : "projectContent-mobile"}>
 
 				<ProjectCard 
+					className="rightBorder"
 					windowWidth={windowWidth}
 					title="Personal Website"
 					href="https://github.com/kwonj1234/my_website"
@@ -25,6 +26,7 @@ export default function Projects(props) {
 				</ProjectCard>
 
 				<ProjectCard
+					className="leftBorder rightBorder"
 					windowWidth={windowWidth}
 					title="RecipeDex"
 					href="https://github.com/kwonj1234/recipedex_frontend"
@@ -45,6 +47,7 @@ export default function Projects(props) {
 				</ProjectCard>
 
 				<ProjectCard
+					className="leftBorder"
 					windowWidth={windowWidth}
 					title="Pretty City"
 					href="https://github.com/mbraly01/Pretty_City_Frontend"

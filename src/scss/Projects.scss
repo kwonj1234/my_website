@@ -18,9 +18,31 @@
     margin-bottom: 10%;
 }
 
+.projComponent a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+.projComponent a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
 .projComponent-mobile {
     width: 100%;
     margin-bottom: 20%;
+}
+
+.projComponent-mobile a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+.projComponent-mobile a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
 }
 
 .leftColumn {
