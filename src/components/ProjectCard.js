@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ProjectCard({windowWidth, title, href, imageStyle, ...props}) {
   return (
-    windowWidth > 1100 ?
+    windowWidth > 900 ?
       <div className="row projComponent">
         <a href={href} className={`leftColumn project-image ${imageStyle}`} target="_blank" rel="noopener noreferrer"/>
         <div className="rightColumn">

@@ -11,7 +11,7 @@ export default function Projects(props) {
 		<div className="Projects" ref={projectRef}>
 			<br></br>
 			<h1 className="section-title">Projects</h1>
-			<div className="projectContent">
+			<div className={windowWidth > 900 ? "projectContent" : "projectContent-mobile"}>
 
 				<ProjectCard 
 					windowWidth={windowWidth}

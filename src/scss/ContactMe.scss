@@ -8,8 +8,7 @@
 .icon-container {
     margin: auto;
     align-items: center;
-    width: 20%;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .icon-linkedin {
@@ -18,6 +17,7 @@
     background: url('../images/icon_linkedin.png');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: 36px;
 }
 
 .icon-email {
