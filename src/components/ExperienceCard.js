@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ExperienceCard({company, dates, href, imageStyle, position, windowWidth, ...props}) {
   return (
-    windowWidth > 1100 ? 
+    windowWidth > 900 ? 
       <div className="row workComponent">
         <div className="leftColumn">
           <h3>{company}</h3>

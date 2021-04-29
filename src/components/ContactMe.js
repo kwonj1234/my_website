@@ -2,6 +2,10 @@ import React from 'react'
 import "../scss/ContactMe.scss"
 
 export default function ContactMe(props) {
+
+  // Deconstruct props
+  const {contactRef, ...rest} = props;
+
   return (
     <div className="ContactMe" ref={props.contactRef}>
       <br/>

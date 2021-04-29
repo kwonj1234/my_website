@@ -15,7 +15,7 @@ export default function Experience(props) {
         href="../downloadable_files/Resume_JaehwiKwon.pdf" 
         download> here</a>
       </p>
-      <div className={windowWidth > 1100 ? "experienceContent" : "experienceContent-mobile"}>
+      <div className={windowWidth > 900 ? "experienceContent" : "experienceContent-mobile"}>
         <div className="workHistory">
           <h2>Roles I Have Held</h2>
           <div class="line"/>
@@ -53,7 +53,7 @@ export default function Experience(props) {
           <ExperienceCard
             company="J.C. Broderick & Associates, Inc."
             dates="June 2018 - September 2018"
-            position="Air Sampling Technician (Inten)"
+            position="Air Sampling Technician (Intern)"
             windowWidth={windowWidth}
           >
             As an intern at JCB, I received training and certification to become a
