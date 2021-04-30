@@ -28,11 +28,12 @@ export default function Experience(props) {
             windowWidth={windowWidth}
           >
             This was a remote position that utilized a sprint methodology to push a new feature
-            every 2-weeks to Spryte's commercial site. The site was built using React, a 
-            firebase database, cloud functions and many components used were from the 
-            Material UI and Syncfusion React component libraries. As an intern, I worked on
-            styling the website, ensuring clients can access their data, and build write
-            cloud functions that handle changes within the firestore database.
+            every 2-weeks to Spryte's partner site. The site was built using React, Firebase, 
+            google cloud functions and Syncfusion React component libraries. As an intern, I worked
+            on styling the website, ensuring clients can access their data, and write
+            cloud functions that handle changes within the firestore database. After working on
+            the partner site, I got the opportunity to learn Flutter and work on Spryte's developer
+            platform building similar funcions as I did on the partner site.
           </ExperienceCard>
           
           <ExperienceCard
@@ -41,13 +42,12 @@ export default function Experience(props) {
             position="Sales Service Representative"
             windowWidth={windowWidth}
           >
-            Contrary to the job title, my role did not involve selling the company's projuct. 
-            My primary role was to visit the homes of post-operative patients, who
-            were usually operated on by a doctor the company has a relationship with, 
-            and show them how to use a pneumatic compressor (PC) machine and/or a continuous
-            passive movement (CPM) machine. I kept in touch with all my assigned patients
-            during the time they had the machine and kept my supervisor up to date on 
-            all of my patients conditions or issues.
+            Contrary to the job title, my role did not involve selling the company's product. 
+            My primary role was to visit the homes of post-operative patients, typically podiatric
+            patients, and show them how to use a pneumatic compressor (PC) machine and/or a continuous
+            passive movement (CPM) machine. I kept in touch with all my assigned patients during 
+            the time they had the machine and kept my supervisor up to date on all of my patients 
+            conditions and issues.
           </ExperienceCard>
           
           <ExperienceCard
@@ -58,13 +58,10 @@ export default function Experience(props) {
           >
             As an intern at JCB, I received training and certification to become a
             licensed air sampling technician to monitor asbestos levels at job sites
-            with known asbestos containing materials. In this role, I was very much
-            left to my own devices. I was let known which project I was assigned to, 
-            and I followed the schedule of the contractors. If they were on site I had
-            to be there as well. Scheduling conflicts I passed on to my manager, but
-            any violations of industrial code rule were usually left up to me to deal with.
-            I had to learn pretty quickly how to speak critically of men much larger
-            than me.
+            with known asbestos containing materials. In this role, I worked independently on job
+            sites. I was let known which project I was assigned to, and I followed the schedule of 
+            the contractors to monitor asbestos levels as they worked. Any violations of industrial 
+            code rule 56 had to be discussed with the contractors or reported.
           </ExperienceCard>
           
           <ExperienceCard
@@ -74,10 +71,10 @@ export default function Experience(props) {
             windowWidth={windowWidth}
           >
             During my time at GRMC, I was trained to use Autodesk Revit and then 
-            tasked to convert AutoCAD drawing into 3D Revit models. As a became
+            tasked to convert AutoCAD drawing into 3D Revit models. As I became
             more acclimated to the software I was then given point clouds of 
             buildings GRMC had previously been consulted on and tasked with 
-            modeling previous jobs into Revit models.
+            modeling those into Revit models.
           </ExperienceCard>
 
         </div>

@@ -15,7 +15,7 @@ export default function About(props) {
 					<div className="selfDescrip">
 						<h2>About Jae</h2>
 						<p>
-							Environmental Engineer, healthcare provider, air quality inspector turned software
+							Environmental engineer, healthcare provider, air quality inspector turned software
 							developer. I began learning Python on my own prior to enrolling in Byte Academy
 							where I was taught Flask, Sqlite, JavaScript and React. Since graduating from Byte 
 							Academy I have also had the opportunity to learn Firebase, Google Cloud, and Flutter 
@@ -69,7 +69,7 @@ export default function About(props) {
 					<div className="selfDescrip-mobile">
 						<h2>About Jae</h2>
 						<p>
-							Environmental Engineer, healthcare provider, air quality inspector turned software
+							Environmental engineer, healthcare provider, air quality inspector turned software
 							developer. I began learning Python on my own prior to enrolling in Byte Academy
 							where I was taught Flask, Sqlite, JavaScript and React. Since graduating from Byte 
 							Academy I have also had the opportunity to learn Firebase, Google Cloud, and Flutter 
