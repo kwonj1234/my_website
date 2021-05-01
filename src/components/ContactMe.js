@@ -4,10 +4,10 @@ import "../scss/ContactMe.scss"
 export default function ContactMe(props) {
 
   // Deconstruct props
-  const {contactRef, ...rest} = props;
+  const { contactRef } = props;
 
   return (
-    <div className="ContactMe" ref={props.contactRef}>
+    <div className="ContactMe" ref={contactRef}>
       <br/>
       <h1>Contact Me!</h1>
       <div className="contactContent">

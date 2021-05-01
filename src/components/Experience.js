@@ -5,7 +5,7 @@ import ExperienceCard from './ExperienceCard';
 export default function Experience(props) {
 
   // Deconstruct props
-  const {experienceRef, windowWidth, ...rest} = props;
+  const {experienceRef, windowWidth } = props;
 
   return (
     <div className="Experience" ref={experienceRef}>
@@ -18,7 +18,7 @@ export default function Experience(props) {
       <div className={windowWidth > 900 ? "experienceContent" : "experienceContent-mobile"}>
         <div className="workHistory">
           <h2>Roles I Have Held</h2>
-          <div class="line"/>
+          <div className="line"/>
           <br></br>
 
           <ExperienceCard
