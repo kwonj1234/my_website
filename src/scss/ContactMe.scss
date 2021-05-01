@@ -12,18 +12,22 @@
 }
 
 .icon-linkedin {
+    height: 80px;
+    width: 80px;
     min-height: 80px;
     min-width: 80px;
-    background: url('../images/icon_linkedin.png');
+    // background: url('../images/icon_linkedin.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 36px;
 }
 
 .icon-email {
+    height: 100px;
+    width: 100px;
     min-height: 100px;
     min-width: 100px;
-    background: url('../images/icon-email.png');
+    // background: url('../images/icon-email.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
