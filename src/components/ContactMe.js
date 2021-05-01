@@ -14,8 +14,12 @@ export default function ContactMe(props) {
         <p>Whatever your reason for reaching out, I would love to hear from you!</p>
       </div>
       <div className="row icon-container">
-        <a className="icon-linkedin" href="https://www.linkedin.com/in/jaehwi-kwon/" target="_blank" rel="noopener noreferrer" />
-        <a className="icon-email" href="mailto:jaehwikwn@gmail.com" target="_blank" rel="noopener noreferrer" />
+        <a href="https://www.linkedin.com/in/jaehwi-kwon/" target="_blank" rel="noopener noreferrer" >
+          <img className="icon-linkedin" alt=""/>
+        </a>
+        <a href="mailto:jaehwikwn@gmail.com" target="_blank" rel="noopener noreferrer" >
+          <img className="icon-email" alt=""/>
+        </a>
       </div>
     </div>
   )

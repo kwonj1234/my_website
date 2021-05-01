@@ -19,6 +19,7 @@ export default function Projects(props) {
 					title="Personal Website"
 					href="https://github.com/kwonj1234/my_website"
 					imageStyle="my_website-image"
+					alt=""
 				>
 					This site right here! My first task after graduating from Byte Academy was 
 					to create my own personal websites to show off all my skills and showcase
@@ -31,6 +32,7 @@ export default function Projects(props) {
 					title="RecipeDex"
 					href="https://github.com/kwonj1234/recipedex_frontend"
 					imageStyle="recipedex-image"
+					alt=""
 				>
 					RecipeDex is a web application that provides users a place to scrape recipes
 					from the internet and store them for future reference without having to have
@@ -52,6 +54,7 @@ export default function Projects(props) {
 					title="Pretty City"
 					href="https://github.com/mbraly01/Pretty_City_Frontend"
 					imageStyle="prettyCity-image"
+					alt=""
 				>
 					A product similar to the Citizen mobile app, PrettyCity used the NYC311 API
 					to give New Yorkers a visual representation of complaints in their area. Using 
