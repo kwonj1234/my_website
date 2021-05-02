@@ -28,6 +28,10 @@ h1 {
   font-size: 36px;
 }
 
+.text-outline {
+  -webkit-text-stroke: 0.5px black;
+}
+
 .no-style {
   list-style: none;
 }

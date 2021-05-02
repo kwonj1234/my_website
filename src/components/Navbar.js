@@ -7,7 +7,7 @@ export default function Navbar(props) {
   const { aboutRef, projectRef, experienceRef, contactRef, windowWidth, scrollToRef } = props;
 
   return (
-    <div className="Navbar">
+    <div className="Navbar text-outline">
       <div className="button-container">
         <button onClick={() => scrollToRef(aboutRef)} className={windowWidth > 1100 ? "navbar-button" : "navbar-button-mobile"}><h3>About Jae</h3></button>
       </div>
