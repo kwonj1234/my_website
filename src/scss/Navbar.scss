@@ -30,15 +30,18 @@
 }
 
 .navbar-button {
-    animation: 1s ease-out 0s 1 slideInFromTop;
     height: 100%;
     text-align: center;
-    margin: auto;
-    color: white;
-    width: 100%;
-    font-size: 24px;
     background-color: transparent;
     cursor: pointer;
+    margin: auto;
+    width: 100%;
+    // Font styling
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 24px;
+    // Code for navbar sliding in from the top
+    animation: 1s ease-out 0s 1 slideInFromTop;
     transition: font-size 0.3s ease-in-out;
     -webkit-transition: font-size 0.3s ease-in-out;
     -moz-transition: font-size 0.3s ease-in-out;

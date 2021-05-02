@@ -14,7 +14,7 @@ export default function Home(props) {
           <p>Hey, I'm</p>
           <h1>Jaehwi Kwon</h1>
           <br></br>
-          <p className="text">NYC raised software developer</p>
+          <p className="text">NYC based software developer</p>
         </div>
       </div>
     </div>
