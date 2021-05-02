@@ -10,11 +10,11 @@ export default function Home(props) {
   return (
     <div className="hero" ref={heroRef}>
       <div className="banner">
-        <div className="bannerText">
+        <div className="bannerText text-outline">
           <p>Hey, I'm</p>
           <h1>Jaehwi Kwon</h1>
           <br></br>
-          <p className="text">NYC raised software developer</p>
+          <p className="text">NYC based software developer</p>
         </div>
       </div>
     </div>
