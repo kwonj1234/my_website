@@ -15,6 +15,7 @@
         text-align: left;
         // flex-grow: 1;
         // margin-top: 3%;
+        width: 33.33%;
         width: 275px;
         margin-right: 30px;
     }
@@ -36,7 +37,8 @@
     }
     
     .skills {
-        width: 275px;
+        width: 33.33%;
+        max-width: 275px;
         margin-left: 30px;
         ul {
             margin: auto;
