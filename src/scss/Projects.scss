@@ -1,12 +1,13 @@
 .Projects {
-    margin: auto;
-    
+    // margin: 0 auto;
+    width: 100%;
+
     h4 {
         color: blue;
     }
     
     .projectContent {
-        margin: 0 25%;
+        // margin: auto;
         padding-bottom: 50px;
     }
     
@@ -16,9 +17,9 @@
     }
     
     .projComponent {
-        width: 100%;
-        height: 200px;
-        margin-bottom: 20%;
+        height: 100%;
+        justify-content: center;
+        margin-bottom: 50px;
 
         a {
             color: #0060B6;
@@ -50,7 +51,7 @@
     
     .leftColumn {
         width: 200px;
-        margin-right: 5%;
+        margin-right: 24px;
         min-height: 200px;
         min-width: 200px;
     }
