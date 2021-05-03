@@ -1,82 +1,87 @@
-.Projects h4 {
-    color: blue;
-}
+.Projects {
 
-.projectContent {
-    margin: 0 25%;
-    padding-bottom: 50px;
-}
+    h4 {
+        color: blue;
+    }
+    
+    .projectContent {
+        margin: 0 25%;
+        padding-bottom: 50px;
+    }
+    
+    .projectContent-mobile {
+        margin: 0 10%;
+        padding-bottom: 50px;
+    }
+    
+    .projComponent {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20%;
 
-.projectContent-mobile {
-    margin: 0 10%;
-    padding-bottom: 50px;
-}
+        a {
+            color: #0060B6;
+            text-decoration: none;
+        }
 
-.projComponent {
-    width: 100%;
-    height: 200px;
-    margin-bottom: 10%;
-}
+        a:hover {
+            color:#00A0C6; 
+            text-decoration:none; 
+            cursor:pointer;  
+        }
+    }
+    
+    .projComponent-mobile {
+        width: 100%;
+        margin-bottom: 20%;
 
-.projComponent a {
-    color: #0060B6;
-    text-decoration: none;
-}
+        a {
+            color: #0060B6;
+            text-decoration: none;
+        }
 
-.projComponent a:hover {
-    color:#00A0C6; 
-    text-decoration:none; 
-    cursor:pointer;  
-}
-
-.projComponent-mobile {
-    width: 100%;
-    margin-bottom: 20%;
-}
-
-.projComponent-mobile a {
-    color: #0060B6;
-    text-decoration: none;
-}
-
-.projComponent-mobile a:hover {
-    color:#00A0C6; 
-    text-decoration:none; 
-    cursor:pointer;  
-}
-
-.leftColumn {
-    width: 30%;
-    margin-right: 5%;
-    min-height: 200px;
-    min-width: 200px;
-}
-.rightColumn {
-    width: 70%;
-    text-align: left;
-}
-
-.my_website-image {
-    background: url(../images/my_website.png);
-}
-
-.recipedex-image {
-    background: url(../images/recipedex_screenshot.jpg);
-}
-
-.prettyCity-image {
-    background: url(../images/prettyCity_screenshot.png);
-}
-
-.project-image {
-    background-position: center;
-    background-size: cover;
-    border-radius: 5%;
-    min-height: 200px;
-    min-width: 200px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
+        a:hover {
+            color:#00A0C6; 
+            text-decoration:none; 
+            cursor:pointer;  
+        }
+    }
+    
+    .leftColumn {
+        width: 30%;
+        margin-right: 5%;
+        min-height: 200px;
+        min-width: 200px;
+    }
+    
+    .rightColumn {
+        width: 70%;
+        text-align: left;
+    }
+    
+    .my_website-image {
+        background: url(../images/my_website.png);
+    }
+    
+    .recipedex-image {
+        background: url(../images/recipedex_screenshot.jpg);
+    }
+    
+    .prettyCity-image {
+        background: url(../images/prettyCity_screenshot.png);
+    }
+    
+    .project-image {
+        background-position: center;
+        background-size: cover;
+        border-radius: 5%;
+        min-height: 200px;
+        min-width: 200px;
+    }
+    
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+    
 }

@@ -1,62 +1,78 @@
 .About {
     background-color: wheat;
+
+    h2 {
+        margin-bottom: 5%;
+    }
+
+    .aboutContent {
+        margin: 0 15%;
+        padding-bottom: 50px;
+    }
+    
+    .selfDescrip {
+        text-align: left;
+        flex-grow: 1;
+        // margin-top: 3%;
+        width: 26%;
+        margin-right: 3%;
+    }
+
+    .container {
+        flex-grow: 1;
+    }
+
+    .selfie {
+        // margin: 3% auto;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background: url(../images/self.jpg);
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .skills {
+        flex-grow: 1;
+        // margin: 3% auto;
+
+        ul {
+            margin: auto;
+        }
+        li {
+            margin: 12px 16px;
+        }
+    }
+
 }
 
 .About-mobile {
     background-color: wheat;
-}
 
+    .selfDescrip-mobile {
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-bottom: 30px;
+    }
 
-.aboutContent {
-    margin: 0 20%;
-    padding-bottom: 50px;
-}
-
-.aboutContent-mobile{
-    margin: 0 5%;
-    padding-bottom: 50px;
-}
-
-.selfDescrip {
-    text-align: left;
-    width: 30%;
-    margin-top: 3%;
-    margin-right: 50px;
-}
-
-.selfDescrip-mobile {
-    text-align: center;
-    margin-top: 3%;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-bottom: 30px;
-}
-
-.selfie {
-    margin:  auto;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background: url(../images/self.jpg);
-    background-position: 50%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.skills {
-    margin: 3% auto;
-}
-
-.skills-mobile {
-    margin: 3% auto;
-    padding-bottom: 30px;
-}
-
-.About h2 {
-    margin-bottom: 5%;
-}
-
-.skills li {
-    margin: 12px 16px;
+    .selfie {
+        margin: 3% auto;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background: url(../images/self.jpg);
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .skills-mobile {
+        margin: 3% auto;
+        padding-bottom: 30px;
+    }
 }

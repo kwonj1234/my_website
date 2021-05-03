@@ -23,7 +23,9 @@ export default function About(props) {
 							chess, video games and triathlon sports.
 						</p>
 					</div>
-					<div className="selfie"/>
+					<div className="container">
+						<div className="selfie"/>
+					</div>
 					<div className="skills">
 						<h2>Tech Skills</h2>
 						<div className="row">
