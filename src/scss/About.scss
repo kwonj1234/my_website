@@ -6,24 +6,26 @@
     }
 
     .aboutContent {
-        margin: 0 15%;
+        margin: 0 auto;
         padding-bottom: 50px;
+        justify-content: center;
     }
     
     .selfDescrip {
         text-align: left;
-        flex-grow: 1;
+        // flex-grow: 1;
         // margin-top: 3%;
-        width: 26%;
-        margin-right: 3%;
+        width: 33.33%;
+        width: 275px;
+        margin-right: 30px;
     }
 
     .container {
-        flex-grow: 1;
+        // flex-grow: 1;
     }
 
     .selfie {
-        // margin: 3% auto;
+        // margin-right: 30px;
         height: 300px;
         width: 300px;
         border-radius: 50%;
@@ -35,9 +37,9 @@
     }
     
     .skills {
-        flex-grow: 1;
-        // margin: 3% auto;
-
+        width: 33.33%;
+        max-width: 275px;
+        margin-left: 30px;
         ul {
             margin: auto;
         }
