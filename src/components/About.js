@@ -46,7 +46,7 @@ export default function About(props) {
 		:
 			<div className="About-mobile" ref={aboutRef}>
 				<br></br>
-				<div className="aboutContent">
+				<div className="aboutContent-mobile">
 					<h1 className="section-title">Profile</h1>
 					<div className="selfie"/>
 					<div className="skills-mobile">
