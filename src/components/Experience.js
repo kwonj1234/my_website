@@ -36,6 +36,33 @@ export default function Experience(props) {
             platform building similar funcions as I did on the partner site.
           </ExperienceCard>
           
+          <ExpeirenceCard
+            company="Upwork"
+            dates="March 2021 - Present"
+            position="Freelancer"
+            windowWidth={windowWidth}
+          >
+            Through the Upwork platform, I applied to work for many clients but one client I worked
+            with for many months working on his website. I was tasked with building several REST API's
+            in the Google Cloud platform that would query a firestore database and return data to
+            the client's React application. He also had me create several components on the website
+            using Material UI. 
+          </ExpeirenceCard>
+
+          <ExpeirenceCard
+            company="PlateRate"
+            dates="October 2020 - March 2021"
+            position="Part Time Equity Developer"
+            windowWidth={windowWidth}
+          >
+            At PlateRate, my main role was to convert their EJS templated platform to a React
+            application as they were trying to transfer their platform to the MERN stack. During my
+            time a PlateRate I was taught to use MongoDB and spent my time converting the platform.
+            Later, I was also tasked with building the foundation of a CRM website the founder of 
+            PlateRate had in the works. The website was heavily based off the PlateRate site which
+            made it simple to start.
+          </ExpeirenceCard>
+
           <ExperienceCard
             company="Nulife Med LLC"
             dates="Feburary 2018 - January 2020"
