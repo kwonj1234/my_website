@@ -23,7 +23,7 @@ export default function Projects(props) {
 				>
 					This site right here! My first task after graduating from Byte Academy was 
 					to create my own personal websites to show off all my skills and showcase
-					my style.
+					my style. Deployed using AWS Amplify.
 				</ProjectCard>
 
 				<ProjectCard
