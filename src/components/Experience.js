@@ -36,7 +36,7 @@ export default function Experience(props) {
             platform building similar funcions as I did on the partner site.
           </ExperienceCard>
           
-          <ExpeirenceCard
+          <ExperienceCard
             company="Upwork"
             dates="March 2021 - Present"
             position="Freelancer"
@@ -47,9 +47,9 @@ export default function Experience(props) {
             in the Google Cloud platform that would query a firestore database and return data to
             the client's React application. He also had me create several components on the website
             using Material UI. 
-          </ExpeirenceCard>
+          </ExperienceCard>
 
-          <ExpeirenceCard
+          <ExperienceCard
             company="PlateRate"
             dates="October 2020 - March 2021"
             position="Part Time Equity Developer"
@@ -61,7 +61,7 @@ export default function Experience(props) {
             Later, I was also tasked with building the foundation of a CRM website the founder of 
             PlateRate had in the works. The website was heavily based off the PlateRate site which
             made it simple to start.
-          </ExpeirenceCard>
+          </ExperienceCard>
 
           <ExperienceCard
             company="Nulife Med LLC"
