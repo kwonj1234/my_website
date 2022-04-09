@@ -22,8 +22,23 @@ export default function Experience(props) {
           <br></br>
 
           <ExperienceCard
+            company="Cynopsis Solutions"
+            dates="July 2021 - Present"
+            position="Associate Software Engineer"
+            windowWidth={windowWidth}
+          >
+            This was a remote position that utilized a sprint methodology to push a new feature
+            every 2-weeks to Spryte's partner site. The site was built using React, Firebase, 
+            google cloud functions and Syncfusion React component libraries. As an intern, I worked
+            on styling the website, ensuring clients can access their data, and write
+            cloud functions that handle changes within the firestore database. After working on
+            the partner site, I got the opportunity to learn Flutter and work on Spryte's developer
+            platform building similar funcions as I did on the partner site.
+          </ExperienceCard>
+
+          <ExperienceCard
             company="Spryte Labs"
-            dates="June 2020 - Present"
+            dates="June 2020 - June 2021"
             position="Software Engineering Intern"
             windowWidth={windowWidth}
           >
