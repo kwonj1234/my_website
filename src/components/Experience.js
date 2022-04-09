@@ -27,15 +27,28 @@ export default function Experience(props) {
             position="Associate Software Engineer"
             windowWidth={windowWidth}
           >
-            This was a remote position that utilized a sprint methodology to push a new feature
-            every 2-weeks to Spryte's partner site. The site was built using React, Firebase, 
-            google cloud functions and Syncfusion React component libraries. As an intern, I worked
-            on styling the website, ensuring clients can access their data, and write
-            cloud functions that handle changes within the firestore database. After working on
-            the partner site, I got the opportunity to learn Flutter and work on Spryte's developer
-            platform building similar funcions as I did on the partner site.
+            For Cynopsis, I work on their Athena platform which focuses on realtime transaction monitoring.
+            Day to day, I work on creating new features for Athena using Python, Django, Postgres and TimescaleDB.
+            I've added features such as a whitelist, cursor pagination, and new permissions for users. Athena is a 
+            live product and we utilized AWS to host client web platforms. When clients had issues, I was able to 
+            use ECS, EC2, and S3 as well as Cloudwatch to fix any bugs or fix any mistakes made by clients. I took
+            responsibility of training and delegating tasks to new engineers on Athena after my mentor left the 
+            company.
           </ExperienceCard>
 
+          <ExperienceCard
+            company="Upwork"
+            dates="March 2021 - March 2022"
+            position="Freelancer"
+            windowWidth={windowWidth}
+          >
+            Through the Upwork platform, I applied to work for many clients but one client I worked
+            with for many months working on his website. I was tasked with building several REST API's
+            in the Google Cloud platform that would query a firestore database and return data to
+            the client's React application. He also had me create several components on the website
+            using Material UI. 
+          </ExperienceCard>
+          
           <ExperienceCard
             company="Spryte Labs"
             dates="June 2020 - June 2021"
@@ -49,19 +62,6 @@ export default function Experience(props) {
             cloud functions that handle changes within the firestore database. After working on
             the partner site, I got the opportunity to learn Flutter and work on Spryte's developer
             platform building similar funcions as I did on the partner site.
-          </ExperienceCard>
-          
-          <ExperienceCard
-            company="Upwork"
-            dates="March 2021 - Present"
-            position="Freelancer"
-            windowWidth={windowWidth}
-          >
-            Through the Upwork platform, I applied to work for many clients but one client I worked
-            with for many months working on his website. I was tasked with building several REST API's
-            in the Google Cloud platform that would query a firestore database and return data to
-            the client's React application. He also had me create several components on the website
-            using Material UI. 
           </ExperienceCard>
 
           <ExperienceCard

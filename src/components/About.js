@@ -36,8 +36,8 @@ export default function About(props) {
 								<li>Flask</li>
 							</ul>
 							<ul className="no-style">
-								<li>HTML</li>
-								<li>CSS</li>
+								<li>Django</li>
+								<li>Postgres</li>
 								<li>SQL (Sqlite)</li>
 								<li>Firebase</li>
 							</ul>
