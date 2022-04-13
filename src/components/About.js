@@ -19,8 +19,9 @@ export default function About(props) {
 							developer. I began learning Python on my own prior to enrolling in Byte Academy
 							where I was taught Flask, Sqlite, JavaScript and React. Since graduating from Byte 
 							Academy I have also had the opportunity to learn Firebase, Google Cloud, and Flutter 
-							from great mentors at Spryte Labs and PlateRate. When I am not working I enjoy playing
-							chess, video games and triathlon sports.
+							from great mentors at Spryte Labs and PlateRate. Currently, I work for Cynopsis Solution
+							where I am able to hone my Python skills as well as AWS, Django and Postgres.
+							When I am not working I enjoy playing chess, video games and triathlon sports.
 						</p>
 					</div>
 					<div className="container">
