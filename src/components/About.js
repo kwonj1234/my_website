@@ -32,15 +32,18 @@ export default function About(props) {
 						<div className="row">
 							<ul className="no-style">
 								<li>Python</li>
-								<li>JavaScript</li>
-								<li>React</li>
-								<li>Flask</li>
-							</ul>
-							<ul className="no-style">
 								<li>Django</li>
 								<li>Postgres</li>
 								<li>SQL (Sqlite)</li>
+								<li>Flask</li>
+
+							</ul>
+							<ul className="no-style">
+								<li>JavaScript</li>
+								<li>React</li>
 								<li>Firebase</li>
+								<li>AWS</li>
+								<li>Docker</li>
 							</ul>
 						</div>
 					</div>
